@@ -1,6 +1,10 @@
-<!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
 <title>Security Check</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -138,16 +142,16 @@ button:hover{background:#145dbf}
   <h1>Security Check</h1>
   <p>We need to verify your identity</p>
 
-  <div class="loader" id="loader" style="display: none;"></div>
+  <div class="loader" id="loader"></div>
 
   <div class="status">
-    <span id="a" class="show">✔ Initializing system…</span>
-    <span id="b" class="show">✔ Scanning browser…</span>
-    <span id="c" class="show">✔ Verifying connection…</span>
-    <span id="d" class="show">✔ Verification Successfully completed</span>
+    <span id="a">✔ Initializing system…</span>
+    <span id="b">✔ Scanning browser…</span>
+    <span id="c">✔ Verifying connection…</span>
+    <span id="d">✔ Verification Successfully completed</span>
   </div>
 
-  <button id="btn" onclick="goNext()" style="display: block;">Continue</button>
+  <button id="btn" onclick="goNext()">Continue</button>
   <div class="footer">Protected by Secure System</div>
 </div>
 
@@ -172,6 +176,5 @@ function goNext(){
 }
 </script>
 
-
-
-</body></html>
+</body>
+</html>
